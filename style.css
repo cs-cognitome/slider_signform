@@ -115,6 +115,12 @@ input {
     z-index: 1; 
 } 
 
+/* add font, but still cosider the most appropriate  */
+.sign-font { 
+ font-family: 'Ultra', serif; 
+ font-size: 80px; 
+}
+
 .container.right-panel-active .sign-in-container { 
     transform: translateX(100%); 
 } 
@@ -205,4 +211,10 @@ input {
 
 .container.right-panel-active .overlay-right {
     transform: translateX(20%);
+} 
+
+/* add font for overlay part, but still looking */
+.overlay-font { 
+    font-family: 'Gruppo', cursive; 
+    font-size: 60px; 
 }
